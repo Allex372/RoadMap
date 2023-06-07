@@ -1,0 +1,48 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    text-align: center;
+    text-transform: capitalize;
+    margin: 120px auto 0 auto;
+}
+
+.taskWrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.taskWrapper>* {
+    margin-right: 40px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.taskWrapper {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent #53865D transparent;
+}
