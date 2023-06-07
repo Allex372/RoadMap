@@ -28,7 +28,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
-    overflow: auto;
+    overflow-x: scroll;
 }
 
 .taskWrapper>* {

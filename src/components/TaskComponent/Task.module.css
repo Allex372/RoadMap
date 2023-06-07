@@ -28,7 +28,6 @@
 
 .textWrapper {
     position: absolute;
-    height: 300px;
     width: 300px;
     left: 20%;
     display: flex;
